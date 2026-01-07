@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js assignment</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="container1">
+        <h1 class="heading1">Counter</h1>
+        <div id="value" class="text-align">0</div>
+        <div class="btn">
+        <button class="text-align-1" onclick="CountAction('increment')">IncrementButton</button>
+        <button class="text-align-1" onclick="CountAction('decrement')">DecrementButton</button>
+        <button class="text-align-1" onclick="CountAction('reset')">ResetButton</button>
+        </div>
+     </div>
+    <div class="container2">
+        <h1 class="heading1">Password Shower</h1>
+        <div class="input-field">
+            <input type="password" id="password-input-field" placeholder="Enter your password">
+           <span id="eye" class="eyes" onclick="showPassword()" ><i class="fa-solid fa-eye"></i></span>
+        </div>
+    </div>
+    <div class="container3">
+        <h1 class="heading1">Odd , Even or Prime Checker</h1>
+        <input type="number" id="number-checker" >
+        <span class="result"></span>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
